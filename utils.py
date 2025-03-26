@@ -28,6 +28,15 @@ def setup_first_time():
     save_songs_path(songs_path)
 
 
+def first_time_how_to_use_warning():
+    pop_up_message(
+        "IMPORTANT: How to use the bot",
+        "Follow the instructions in the terminal for hotkeys usage.\n" + \
+        "When pressing Shift+P to start the bot, make sure to be the most precise possible.\n" + \
+        "If you don't sync the first object (circle, slider or spinner) well, the bot will be offsync."
+    )
+
+
 def save_songs_path(songs_path):
     settings = {
         'songs_path': songs_path.replace('\\', '/')
@@ -58,7 +67,9 @@ def setup_songs_path_again():
 
 
 def pop_up_message(title, message):
+    print("Read the pop-up message and press 'ok'.")
     windll.user32.MessageBoxW(0, message, title, 0)
+    os.system('cls||clear')
 
 
 def ask_songs_path():

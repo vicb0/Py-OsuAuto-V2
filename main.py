@@ -12,6 +12,7 @@ from objects.TimingPointManager import TimingPointManager
 def main():
     if utils.is_first_time():
         utils.setup_first_time()
+        utils.first_time_how_to_use_warning()
     elif not utils.songs_path_exist():
         utils.setup_songs_path_again()
     utils.load_songs_path()
