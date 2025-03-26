@@ -18,11 +18,11 @@ See the showcase [here](https://youtu.be/NljNioZ1FOk)!
 5. [How to use](#how-to-use)
 6. [Osu! Lazer support](#lazer-support)
 
-# About this project and me <h1>
+# About this project and me
 This bot is _actually_ what I intended to make when I was getting into coding (5-7 years ago), and the result was the mess seen in the first version.
 This new version shows my progression not just as a developer, but as a person overall, since it neede patience, research and persistence that I did not have back then
 
-# V2 vs V1 <h1>
+# V2 vs V1
 Here's a list of what this version does better than the first:
 1. It automatically loads the map currently in play. No need to manually load the right file browsing through Osu!'s folder. That was a pretty annoying step.
 2. The bot doesn't just teleport from one circle to another anymore, it actually moves smoothly from one object to the other, making it much more enhoyable to watch.
@@ -39,20 +39,20 @@ Here's a list of what this version does better than the first:
     - Also, this specific step had many edge cases and was overall a pain to do. Shout out to (idMysteries)[https://github.com/idMysteries/osuAutoBot/blob/fe45335697bc5200163be162c39ba595868b7c1b/main.cpp#L502].
 5. It uses Shift as a modifier for the commands. No more accidentally turning mods on and off while typing the name of the map you want it to play.
 
-# What is "Osu!"? <h1>
+# What is "Osu!"?
 Check it out [here](https://osu.ppy.sh/home)! It's awesome!
 
 _**TL;DR:**_
 Osu! is a rhythm game where your objective is to click circles, sliders, and spinners to the beat of the song at the most precise timing possible.
 The "beatmaps" are what players play. They are made by the community itself so the replayability is infinite!
 
-# Requirements <h1>
+# Requirements
 - Python 3
 - Windows
 
 Yeah, that's it. This bot only using built-in Python libraries :)
 
-# How to use <h1>
+# How to use
 1. Be on Windows;
 2. Have Python 3 installed;
 3. Run `main.py`;
@@ -60,7 +60,7 @@ Yeah, that's it. This bot only using built-in Python libraries :)
 
 P.S.: This bot doesn't use memory reading (mostly because it is a pain to do), so you need to manually start the bot by pressing Shift+P (be sure to be really precise with that first circle), and Shift+D/Shift+H/Shift+R/Shift+E for Double Time/Half Time/Hard Rock/Easy mod respectively.
 
-# Lazer support <h1>
+# Lazer support
 This bot works by reading the `.osu` beatmap files. Lazer does not have those.
 
 However, it still kind of works if you have both Lazer and Standard downloaded, as well as the beatmap you want to play downloaded on both versions.
