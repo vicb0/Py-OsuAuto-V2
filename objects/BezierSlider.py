@@ -2,10 +2,11 @@ from math import dist
 
 from objects.Point import Point
 from objects.Slider import Slider
+from utils import get_bezier_coefficient
 
 
 class BezierSlider(Slider):
-    coefficient = 0.005
+    coefficient = None
 
     def __init__(self, x, y, offset, points, repeat, length):
         super().__init__(x, y, offset, points, repeat, length)
@@ -84,3 +85,7 @@ class BezierSlider(Slider):
             result /= i
 
         return result
+
+    @staticmethod
+    def load_coefficient():
+        BezierSlider.coefficient = max(0.001, min(get_bezier_coefficient(), 0.1))

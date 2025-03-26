@@ -5,12 +5,13 @@ from math import cos
 from objects.Point import Point
 from objects.PlayArea import PlayArea
 from objects.HitObject import HitObject
+from utils import get_spinner_ms_step
 
 
 class Spinner(HitObject):
     rpm = 480
     radius = 0.05 * PlayArea.height
-    millisecond_step = 10
+    millisecond_step = None
 
     def __init__(self, offset, end):
         super().__init__(
@@ -45,3 +46,7 @@ class Spinner(HitObject):
 
             offset += Spinner.millisecond_step
             angle = (angle + radian) % (2 * pi)
+
+    @staticmethod
+    def load_ms_step():
+        Spinner.millisecond_step = max(1, min(get_spinner_ms_step(), 100))

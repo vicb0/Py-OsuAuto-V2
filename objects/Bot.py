@@ -2,6 +2,7 @@ from math import dist
 from time import perf_counter
 
 import bot_utils
+from objects.Spinner import Spinner
 from objects.Metadata import Metadata
 from objects.PlayArea import PlayArea
 from objects.BezierSlider import BezierSlider
@@ -75,6 +76,8 @@ class Bot:
         # having the wrong resolution.
         PlayArea.calc_offsets()
         Metadata.calc_data()
+        BezierSlider.load_coefficient()
+        Spinner.load_ms_step()
 
         HitObjectManager.calc_slider_paths()
         HitObjectManager.calc_spinners()
