@@ -1,6 +1,8 @@
 Py!OsuAuto V2
 =============
 
+Download [here](https://github.com/vicb0/Py-OsuAuto-V2/releases)!
+
 **DISCLAIMERS:**
 
 - This bot is made for educational purposes only. I do not recommend using it on your account, log off before doing so.  
