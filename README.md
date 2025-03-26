@@ -2,6 +2,7 @@ Py!OsuAuto V2
 =============
 
 Download [here](https://github.com/vicb0/Py-OsuAuto-V2/releases)!
+
 See the showcase [here](https://youtu.be/NljNioZ1FOk)!
 
 **DISCLAIMERS:**
