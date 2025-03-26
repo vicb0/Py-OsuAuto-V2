@@ -108,7 +108,7 @@ def is_numeric(val):
         val = float(val)
     except ValueError:
         return False
-    return val
+    return True
 
 
 def load_settings():
