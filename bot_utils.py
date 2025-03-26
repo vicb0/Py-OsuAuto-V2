@@ -34,7 +34,7 @@ def shift_is_pressed(key):
         windll.user32.VkKeyScanW(ord(key))
     ) & 0x8000 != 0
 
-    shift_state = windll.user32.GetKeyState(0x10) & 0x8000 != 0
+    shift_state = windll.user32.GetAsyncKeyState(0x10) & 0x8000 != 0
     
     return key_state and shift_state
 
