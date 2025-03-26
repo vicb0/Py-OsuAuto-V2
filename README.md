@@ -2,6 +2,7 @@ Py!OsuAuto V2
 =============
 
 Download [here](https://github.com/vicb0/Py-OsuAuto-V2/releases)!
+See the showcase [here](https://youtu.be/NljNioZ1FOk)!
 
 **DISCLAIMERS:**
 
@@ -10,8 +11,6 @@ Download [here](https://github.com/vicb0/Py-OsuAuto-V2/releases)!
 - **THIS BOT DOES NOT AUTOMATICALLY CLICK. IT ONLY _AIMS_. THIS IS DONE TO DISCOURAGE CHEATERS.**
 
 Py!OsuAuto V2 is like [Py!OsuAuto](https://github.com/victorborneo/Py-OsuAuto), but _better_!
-
-See the showcase [here](https://youtu.be/NljNioZ1FOk)!
 
 1. [About this project and me](#about-this-project-and-me)
 2. [What V2 does better than V1](#v2-vs-v1)
