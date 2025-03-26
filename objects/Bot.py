@@ -36,7 +36,13 @@ class Bot:
     def calc_game():
         for c, ho in enumerate(HitObjectManager.hos):
             if c != 0:
-                last = Bot.path[-1]
+                n = len(Bot.path) - 1
+                last = Bot.path[n]
+
+                while n >= 0 and last.offset >= ho.point.offset:
+                    n -= 1
+                    last = Bot.path[n]                    
+
                 length = dist((last.x, last.y), (ho.point.x, ho.point.y))
                 duration = ho.point.offset - last.offset
 
@@ -53,6 +59,8 @@ class Bot:
                 Bot.path.append(ho.point)
             else:
                 Bot.path.extend(ho.path)
+        
+        Bot.path.sort(key=lambda x: x.offset)
 
     @staticmethod
     def convert_coords():
