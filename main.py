@@ -61,7 +61,7 @@ def main():
             print('Beatmap empty. Cancelled.\n')
             continue
 
-        print('Doing math stuff...')
+        print('Doing math stuff... Pause the game while this is loading')
         Bot.setup()
 
         print("Ready! Press Shift+P to start and Shift+S to anytime to stop.")
