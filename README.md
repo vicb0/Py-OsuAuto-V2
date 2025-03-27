@@ -27,16 +27,16 @@ This new version shows my progression not just as a developer, but as a person o
 # V2 vs V1
 Here's a list of what this version does better than the first:
 1. It automatically loads the map currently in play. No need to manually load the right file browsing through Osu!'s folder. That was a pretty annoying step.
-2. The bot doesn't just teleport from one circle to another anymore, it actually moves smoothly from one object to the other, making it much more enhoyable to watch.
+2. The bot doesn't just teleport from one circle to another anymore, it actually moves smoothly from one object to the other, making it much more enjoyable to watch.
     - I didn't implement it in the first version of the bot because I was having issues with the bot getting delayed in relation to the gameplay.
     - Initally I thought the only way to make the bot move smoothly without suffering from delay would be by reading the game's memory. Fortunately, I proved myself wrong.
-    - I fixed it by giving literally every single point the bot moves a time value, which the bot keeps track of and only moves when the time is right.
+    - I fixed it by giving literally every single point a time value, which the bot keeps track of and only moves when the time is right.
     - This involves some complicated maths around Bezier curves and trigonometry.
 3. The sliders are actually precise now.
     - The previous version used some spaghetti code for calculating slider paths, which resulted in inconsistent speed whilst going through sliders, causing misses.
     - Now, the bot makes sures every point in a slider path is equidistant, with a much more readable code as well.
 4. Stacking actually works.
-    - Stacking is whenever to objects are really close to each other in a small time frame, putting the slightly to the right or left, up or down, depending on some conditions.
+    - Stacking is whenever two objects are really close to each other in a small time frame, putting it slightly to the right or left, up or down, depending on some conditions.
     - This caused the previous version to complete miss entire streams of stacked objects (Like in `Everything Will Freeze [Time Freeze]`)
     - Also, this specific step had many edge cases and was overall a pain to do. Shout out to (idMysteries)[https://github.com/idMysteries/osuAutoBot/blob/fe45335697bc5200163be162c39ba595868b7c1b/main.cpp#L502].
 5. It uses Shift as a modifier for the commands. No more accidentally turning mods on and off while typing the name of the map you want it to play.
