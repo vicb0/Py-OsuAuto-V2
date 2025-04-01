@@ -22,7 +22,7 @@ def main():
     print('If the bot is taking too long to load maps in your machine, check the `settings.json` file.')
     print('=' * 50)
     print('Press Shift + one of the following keys:')
-    print(">'D' to enable DT.\n>'H' to enable HT\n>'R' to enable HR.\n>'E' to enable EZ.")
+    print(">'D' to enable DT\n>'H' to enable HT\n>'R' to enable HR\n>'E' to enable EZ")
     print("You can't toggle these while in a map.\n")
 
     while True:
