@@ -43,6 +43,7 @@ def setup_first_time():
 def first_time_how_to_use_warning():
     pop_up_message(
         "IMPORTANT: How to use the bot",
+        "DISABLE RAW INPUT IN OSU'S SETTINGS!.\n\n" + \
         "Follow the instructions in the terminal for hotkeys usage.\n\n" + \
         "When pressing Shift+P to start the bot, make sure to be the most precise possible.\n\n" + \
         "If you don't sync the first object (circle, slider or spinner) well, the bot will be offsync."

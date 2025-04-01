@@ -17,6 +17,7 @@ def main():
         utils.setup_songs_path_again()
 
     print('=' * 50)
+    print("DISABLE RAW INPUT IN OSU!'S SETTINGS")
     print('ENABLE RELAX MOD')
     print('If the bot is taking too long to load maps in your machine, check the `settings.json` file.')
     print('=' * 50)
