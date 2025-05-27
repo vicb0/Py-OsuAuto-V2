@@ -38,7 +38,7 @@ Here's a list of what this version does better than the first:
 4. Stacking actually works.
     - Stacking is whenever two objects are really close to each other in a small time frame, putting it slightly to the right or left, up or down, depending on some conditions.
     - This caused the previous version to complete miss entire streams of stacked objects (Like in `Everything Will Freeze [Time Freeze]`)
-    - Also, this specific step had many edge cases and was overall a pain to do. Shout out to (idMysteries)[https://github.com/idMysteries/osuAutoBot/blob/fe45335697bc5200163be162c39ba595868b7c1b/main.cpp#L502].
+    - Also, this specific step had many edge cases and was overall a pain to do. Shout out to [idMysteries](https://github.com/idMysteries/osuAutoBot/blob/fe45335697bc5200163be162c39ba595868b7c1b/main.cpp#L502).
 5. It uses Shift as a modifier for the commands. No more accidentally turning mods on and off while typing the name of the map you want it to play.
 
 # What is "Osu!"?
