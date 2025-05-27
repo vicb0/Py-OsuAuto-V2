@@ -22,7 +22,7 @@ Py!OsuAuto V2 is like [Py!OsuAuto](https://github.com/victorborneo/Py-OsuAuto), 
 
 # About this project and me
 This bot is _actually_ what I intended to make when I was getting into coding (5-7 years ago), and the result was the mess seen in the first version.
-This new version shows my progression not just as a developer, but as a person overall, since it neede patience, research and persistence that I did not have back then
+This new version shows my progression not just as a developer, but as a person overall, since it needed patience, research and persistence that I did not have back then.
 
 # V2 vs V1
 Here's a list of what this version does better than the first:
